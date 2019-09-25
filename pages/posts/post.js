@@ -1,4 +1,4 @@
-var postsData = require('../../data/posts-data.js')
+ var postsData = require('../../data/posts-data.js')
 
 Page({
   data: {

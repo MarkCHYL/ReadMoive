@@ -50,8 +50,14 @@ Page({
     // wx.navigateTo({
     //   url: '../posts/post',
     // })
-    wx.redirectTo({
+    // wx.redirectTo({
+    //   url: '../posts/post',
+    // })
+    wx:wx.switchTab({
       url: '../posts/post',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
   }
 })
