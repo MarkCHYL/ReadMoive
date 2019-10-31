@@ -2,14 +2,16 @@
   "pages": [
     "pages/welcome/welcome",
     "pages/posts/post",
+    "pages/movies/movies",
     "pages/posts/post-detail/post-detail",
-    "pages/movies/movies"
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#405f80",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "头条新闻",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [

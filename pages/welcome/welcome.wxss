@@ -23,14 +23,16 @@
 
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 148rpx;
+  height: 148rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #021213;
+  margin-top: 40rpx;
+  font-size: 40rpx
 }
 
 .usermotto {

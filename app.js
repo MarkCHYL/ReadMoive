@@ -39,5 +39,6 @@ App({
     g_isPlayingMusic: false,
     g_currentMusicPostId: null,
     doubanBase: "https://api.douban.com",
+    doubanapikey: "0df993c66c0c636e29ecbb5344252a4a",
   }
 })

@@ -9,7 +9,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
-  onLoad: function () {
+  onLoad: function() {
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -37,7 +37,7 @@ Page({
       })
     }
   },
-  getUserInfo: function (e) {
+  getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
@@ -46,15 +46,16 @@ Page({
     })
   },
 
-  onTap:function(event){
+  onTap: function(event) {
     // wx.navigateTo({
     //   url: '../posts/post',
     // })
     // wx.redirectTo({
     //   url: '../posts/post',
     // })
-    wx:wx.switchTab({
-      url: '../posts/post',
+    // url: '../posts/post',
+    wx.switchTab({
+      url: '../movies/movies',
       success: function(res) {},
       fail: function(res) {},
       complete: function(res) {},
